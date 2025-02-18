@@ -185,7 +185,7 @@ const generateAPIResponse = async (incomingMessageDiv) => {
 // Show a placeholder message while waiting for the API response
 const showPlaceholderMessage = () => {
   const html = `<div class="message-content">
-                  <img class="avatar" src="HI.png" alt="">
+                  <img class="avatar" src="logo.jpg" alt="">
                   <p class="text"></p>
                 </div>`;
 
@@ -202,7 +202,7 @@ const showPlaceholderMessage = () => {
 // Show a predefined message
 const showPredefinedMessage = (predefinedResponse) => {
   const html = `<div class="message-content">
-                  <img class="avatar" src="HI.png" alt="">
+                  <img class="avatar" src="logo.jpg" alt="">
                   <p class="text"></p> <!-- Empty text element for typing effect -->
                 </div>`;
 
@@ -285,7 +285,7 @@ const getRandomWelcomeMessage = () => {
 const displayWelcomeMessage = () => {
   const welcomeMessage = getRandomWelcomeMessage();
   const html = `<div class="message-content">
-                  <img class="avatar" src="HI.png" alt="">
+                  <img class="avatar" src="logo.jpg" alt="">
                   <p class="text"></p> <!-- Empty text element for typing effect -->
                 </div>`;
 
